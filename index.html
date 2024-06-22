@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOTSRAP</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <style>
+
+      .nav-bar {
+            background-color: yellow;
+            justify-content: space-between;
+            top: 0px;
+            position: sticky;
+            
+       } 
+       .accordion-item {
+         background-color: #0b1522;
+       }
+
+       .accordion-button {
+        background-color: #F0F3FA;
+       }
+        
+       P {
+        color: aliceblue;
+       }
+       .card-text {
+        color: blueviolet;
+       }
+       .card {
+        margin: 10px;
+        padding: 20px;
+        border-radius: 10px 30px 50px 70px;
+        box-shadow: 10px 10px 10px grey;
+       }
+      
+       .col-8 {
+        display: inline-block;
+        width: 300px;
+        height: 300px;
+        overflow: auto;
+        text-align: justify
+       }
+      .notification {
+        position: fixed;
+       border-radius: 50%;
+        left: 1350px;
+      }
+       
+    </style>
+</head>
+<body>
+
+  
+  <nav class="nav-bar">
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="https://www.google.com">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.google.com">GOOGLE</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.google.com">AMAZON</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+</nav>
+
+
+  <button type="button" class="btn btn-primary notification">
+           Notifications <span class="badge text-bg-secondary">19</span>
+    </button>
+
+
+
+    <center><h1 style="color: rgb(99, 68, 153);">ARTISTIC BIRDS </h1></center>
+    
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+             <b style="color: #395886;"> CRIMSON SUNBIRD</b>
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <img src="./images/sunbirds.jpg" width="450px"/>
+             <p> <mark><strong>Sunbirds,unlike hummingbirds,usually sit on the flower stalk instead  of hovering during feeding.</strong></mark> The crimson sunbird is a species of bird in the sunbird family which feed largely on nectar. They may also take insects, especially when feeding their young. Flight is fast and direct on their short wings. Most species can take nectar by hovering like a hummingbird, but usually perch to feed.
+             </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+             <b style="color: #395886;"> MALE KINGFISHER</b>
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <img src="./images/kingfisher.jpg"  width="450px"/>
+            <p> <mark> <strong>As a courtship ritual, the male kingfisher offers fish to its female counterpart.</strong></mark> The belted kingfisher is a large, conspicuous water kingfisher, native to North America. All kingfishers are placed in one family, Alcedinidae, and recent research suggests that this should be divided into three subfamilies.
+            </p> 
+            </div>
+          </div>
+        </div>
+
+
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+             <b style="color: #395886;"> FEMALE CICADAS</b>
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <img src="./images/cicada.jpg"  width="450px"/>
+             <p><mark> <strong>Female cicadas lay upto 400 eggs in small holes that they create within the branches of trees and shrubs.</strong> </mark>The cicadas are a superfamily, the Cicadoidea, of insects in the order Hemiptera. They are in the suborder Auchenorrhyncha, along with smaller jumping bugs such as leafhoppers and froghoppers.
+            </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+             <b style="color: #395886;"> THE PEAHEN</b>
+              </button>
+            </h2>
+            <div id="collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <img src="./images/peahens.jpg"  width="450px"/>
+               <p> <mark> <strong>The peahens plays a vital role by single handedly nurturing her chicks,crating a nest on the ground, laying three to eight eggs and diligently incubating them for approximately four weeks.</strong></mark> The Indian peafowl, also known as the common peafowl, and blue peafowl, is a peafowl species native to the Indian subcontinent. It has been introduced to many other countries.
+               </p>
+            </div>
+            </div>
+          </div>
+
+          
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+             <b style="color: #395886;"> A PEACOCK</b>
+              </button>
+            </h2>
+            <div id="collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <img src="./images/peacock.jpg"  width="450px"/>
+               <p> <mark> <strong>As compared to the brilliant display of colors on a peacock's feathers,peahens are more drab with a brown back and a white belly.</strong> </mark> Peacock is an American over-the-top video streaming service owned and operated by Peacock TV LLC, a subsidiary of NBCUniversal Media Group. Named after the NBC logo, the service launched on July 15, 2020.
+               </p>
+            </div>
+            </div>
+          </div>
+      </div>
+                                                     <hr>
+         
+                   <center><h2 style="color: rgb(99, 68, 153);">POPULAR GAME CARDS </h2></center>
+
+      <div class="card" style="width: 18rem;">
+        <img src="./images/pubg-car-in-the-air-4k-9nuky07id49csp8p.webp" class="card-img-top" alt="image">
+        <div class="card-body">
+          <h5 class="card-title">PUBG:BATTLEGROUNDS</h5>
+          <p class="card-text">
+                 It is a popular multiplayer online battle royale game devoloped and published by PUBG corporation.The game was released in 2017 and quickly gained a large player based world wide.
+          </p>
+          <a href="https://en.wikipedia.org/wiki/PUBG:_Battlegrounds" target="_blank" class="btn btn-link">Go to Wikipedia</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img src="./images/callofduty.jpg" class="card-img-top" alt="image">
+        <div class="card-body">
+          <h5 class="card-title">CALL OF DUTY:BATTLEGROUNDS</h5>
+          <p class="card-text">The game simulates infantry and combined arms warfare of World War 2 using a modified version of the id tech 3 engine.</p>
+          <a href="https://en.wikipedia.org/wiki/Call_of_Duty" target="_blank" class="btn btn-link">Go to Wikipedia</a>
+        </div>
+      </div>
+    
+                                          <hr>
+
+                 <center><h2 style="color: rgb(99, 68, 153);">SCROLLING IMAGES </h2></center>
+
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/bentley_continental_gt_ice_race_2020_5k_2-HD.jpg" class="d-block w-50" alt="image">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/bentley_flying_spur_blackline_2019_4k-HD.jpg" class="d-block w-50" alt="image">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/bentley_mulsanne_edition_by_mulliner_2020_4k_8k-HD.jpg" class="d-block w-50" alt="image">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/Snapinsta.app_266846114_1940042689500297_796181554893617079_n_1080.jpg" class="d-block w-50" alt="image">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/Snapinsta.app_272755794_315778723816415_1696837437030182324_n_1080.jpg" class="d-block w-50" alt="image">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/Snapinsta.app_302071199_2947675868866232_8119036896691410667_n_1080.jpg" class="d-block w-50" alt="image">
+          </div>
+        </div>
+      
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  
+
+                                     <hr>
+     
+                                     <center><h2 style="color: rgb(99, 68, 153);">LOADING SPINNER </h2></center>
+
+      <button class="btn btn-secondery" type="button" disabled>
+        <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+        <span role="status">Wait....! your content is Loading... </span>
+      </button>
+
+                      <hr>
+      
+                      <center><h2 style="color: rgb(99, 68, 153);">PROGRESS BAR </h2></center>
+
+       <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+       <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"> Downloading in Progress</div>                 </div>
+
+                            <hr>
+
+      
+                            <center><h2 style="color: rgb(99, 68, 153);">SCROLLSPY </h2></center>
+
+      <div class="row">
+        <div class="col-4">
+          <div id="list-example" class="list-group">
+            <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-2">Item 2</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
+         </div>
+        </div>
+        <div class="col-8">
+          <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+            <h4 id="list-item-1">CRIMSON SUNBIRD</h4>
+            <p style="color: #0b1522;">The crimson sunbird is a species of bird in the sunbird family which feed largely on nectar. They may also take insects, especially when feeding their young. Flight is fast and direct on their short wings. Most species can take nectar by hovering like a hummingbird, but usually perch to feed.</p>
+            <h4 id="list-item-2"> MALE KINGFISHER</h4>
+            <p style="color: #0b1522;">The belted kingfisher is a large, conspicuous water kingfisher, native to North America. All kingfishers are placed in one family, Alcedinidae, and recent research suggests that this should be divided into three subfamilies.</p>
+            <h4 id="list-item-3">The Peahen</h4>
+            <p style="color: #0b1522;">The peahens plays a vital role by single handedly nurturing her chicks,crating a nest on the ground, laying three to eight eggs and diligently incubating them for approximately four weeks. The Indian peafowl, also known as the common peafowl, and blue peafowl, is a peafowl species native to the Indian subcontinent. It has been introduced to many other countries.
+            </p>
+            <h4 id="list-item-4">The Peacock</h4>
+            <p style="color: #0b1522;"> As compared to the brilliant display of colors on a peacock's feathers,peahens are more drab with a brown back and a white belly.Peacock is an American over-the-top video streaming service owned and operated by Peacock TV LLC, a subsidiary of NBCUniversal Media Group. Named after the NBC logo, the service launched on July 15, 2020.
+            </p>
+          </div>
+        </div>
+      </div>
+
+                              <hr>
+
+                              <center><h2 style="color: rgb(99, 68, 153);">MODAL</h2></center>
+                             
+<button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Confirmation 
+</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">To Confirm</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        You have changed password
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+                           <hr>
+                           
+
+                           
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
